@@ -75,7 +75,7 @@ h2, h3 {
     font-size: 1.2em;
 }
 .quien-soy p {
-    padding-left: 1em;
+    padding: 0 1em;
 }
 
 .programas-lista .programa{
