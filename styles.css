@@ -1,4 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --margin: 0;
+    --gap: 40px;
+}
+
+body {
+    margin: var(--margin);
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.curriculum {
+    padding: 2em 4em
+}
+hr {
+    border: 1px solid #000;
+    margin-right: .5em;
+}
+h2, h3 {
+    margin: var(--margin);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 40% 51%;
+    margin-bottom: 2em;
+    gap: var(--gap);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+.hero-details h1{
+    font-size: 5em;
+    margin: var(--margin);
+}
+
+.hero-details p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .grid-container {
-    display: grid; 
-    grid-template-columns:repeat(2, 1fr);   
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: var(--gap);
+    justify-content: center;
+}
+
+.left {
+    margin-bottom: 2em;
+}
+.contacto-lista, .programas-lista, .referencia-lista {
+    margin: var(--margin);
+    padding: 0 0 0 1em;
+}
+
+.contacto-elemento, .referencia-elemento {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    margin: 1em 0;
+}
+.contacto-elemento img, .referencia-elemento img {
+    width: 1.5em;
+}
+
+.contacto-elemento p, .programa p, .referencia-elemento p {
+    margin: var(--margin);
+    font-size: 1.2em;
+}
+.quien-soy p {
+    padding-left: 1em;
+}
+
+.programas-lista .programa{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.programa img {
+    width: 100px;
+}
+
+.right .experiencia-profesional .experiencia{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 15px 0;
+    justify-content: space-around;
+}
+
+.experiencia small, .preparacion-academica small{
+    font-size: 1em;
+}
+
+.experiencia-fecha {
+    text-align: center;
+}
+
+.experiencia-datos h4, .experiencia-datos p {
+    margin: 5px 0;
+}
+.experiencia-datos h5 {
+    margin: 10px 0 0 0;
+}
+
+.right .preparacion-academica .educacion {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 10px;
+    align-items: center;
 }
