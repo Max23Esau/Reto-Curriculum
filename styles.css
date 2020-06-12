@@ -89,10 +89,10 @@ h2, h3 {
     width: 100px;
 }
 
-.right .experiencia-profesional .experiencia{
+.experiencia{
     display: grid;
     grid-template-columns: 20% 80%;
-    margin: 15px 0;
+    margin: 20px 0;
     justify-content: space-around;
 }
 
@@ -110,10 +110,12 @@ h2, h3 {
 .experiencia-datos h5 {
     margin: 10px 0 0 0;
 }
-
-.right .preparacion-academica .educacion {
+.preparacion-academica {
+    margin-top: 40px;
+}
+.educacion {
     display: grid;
     grid-template-columns: 30% 70%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     align-items: center;
 }
